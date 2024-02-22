@@ -41,12 +41,12 @@ $(document).ready(function() {
             <div class="projects__row">
                 <div class="projects__row-img-cont">
                     <img
-                            src="/assets/jpeg/project-mockup-example.jpeg"
+                            src="/me/assets/jpeg/project-mockup-example.jpeg"
                             alt="Software Screenshot"
                             class="projects__row-img"
                             loading="lazy"
                     />
-                    <img class="projects__row-own-img" src=${project.image} alt="Project Image"/>
+                    <img class="projects__row-own-img" src="/me${project.image}" alt="Project Image"/>
 
                 </div>
                 <div class="projects__row-content">
