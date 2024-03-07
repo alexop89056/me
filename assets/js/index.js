@@ -40,14 +40,7 @@ $(document).ready(function() {
         $('.projects__content').append( `
             <div class="projects__row">
                 <div class="projects__row-img-cont">
-                    <img
-                            src="/me/assets/jpeg/project-mockup-example.jpeg"
-                            alt="Software Screenshot"
-                            class="projects__row-img"
-                            loading="lazy"
-                    />
                     <img class="projects__row-own-img" src="/me${project.image}" alt="Project Image"/>
-
                 </div>
                 <div class="projects__row-content">
                     <h3 class="projects__row-content-title">${project.title}</h3>
