@@ -1,6 +1,15 @@
 const PROJECTS = [
     {
         id: 1,
+        title: 'FastApi application with Celery Broker',
+        shortDescription: 'The application includes a loigku to get ip address from external api and save it to database.',
+        technologies: ['FastApi', 'Celery', 'RestApi', 'Jwt Authorization', 'Peewe ORM', 'RabbitMQ', 'Swagger Docs', 'MySQL', 'UnitTests'],
+        image: '/assets/projects/celery.png',
+        liveLink: '',
+        githubLink: 'https://github.com/alexop89056/fastapi-celery'
+    },
+    {
+        id: 2,
         title: 'University Api System',
         shortDescription: 'University Api System Based On Django Python DRF Framework',
         technologies: ['Python', 'Django', 'Django REST framework', 'Swagger', 'RESTful API', 'SQLite', 'JWT authentication'],
@@ -9,7 +18,7 @@ const PROJECTS = [
         githubLink: 'https://github.com/alexop89056/university-api-system'
     },
     {
-        id: 2,
+        id: 3,
         title: 'Online Payment System',
         shortDescription: 'Stripe based payment UI with Django + Docker',
         technologies: ['Python', 'Django', 'Stripe', 'Gunicorn', 'Nginx', 'PostgreSQL', 'Docker'],
@@ -18,7 +27,7 @@ const PROJECTS = [
         githubLink: 'https://github.com/alexop89056/django-stripe-docker'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Form Validator',
         shortDescription: 'Custom Form Validator Based On Flask Python',
         technologies: ['Python', 'Flask', 'Json', 'TinyDB'],
