@@ -3,7 +3,7 @@ const PROJECTS = [
         id: 1,
         title: 'FastApi application with Celery Broker',
         shortDescription: 'The application includes a loigku to get ip address from external api and save it to database.',
-        technologies: ['FastApi', 'Celery', 'RestApi', 'Jwt Authorization', 'Peewe ORM', 'RabbitMQ', 'Swagger Docs', 'MySQL', 'UnitTests'],
+        technologies: ['FastApi', 'Celery', 'RestApi', 'Jwt Authorization', 'Peewe ORM', 'RabbitMQ', 'Swagger Docs', 'MySQL'],
         image: '/assets/projects/celery.png',
         liveLink: '',
         githubLink: 'https://github.com/alexop89056/fastapi-celery'
